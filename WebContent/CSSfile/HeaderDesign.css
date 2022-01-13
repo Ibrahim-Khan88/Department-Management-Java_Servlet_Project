@@ -1,0 +1,28 @@
+.miss{
+	color: red;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.heading{
+	background-color: red;
+	position: relative;
+}
+
+.headingpic{
+	height: 170px;
+	width: 100%;
+}
+.logo{
+	position: absolute;
+	left: 10%;
+	top: 0%;
+	traslate: trasform(-50%);
+}
+.logopic{
+	height: 100px;
+	width: 100px;
+}

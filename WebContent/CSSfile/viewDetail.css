@@ -1,0 +1,139 @@
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#Allcontain{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	background-image: url(/Project2/image/background.png);
+}
+
+#heading-user{
+	margin: 20px;
+	color:   #000080;
+	font-size: 25px;
+}
+
+#user-name-email{
+	position: absolute;
+	left: 10%;
+	top: 50%;
+	width: 37%;
+	height: 350px;
+	transform: translate(0%, -50%);
+}
+
+  #erp-button{
+   // margin: auto; 
+    margin-top: 50px; 
+    background-color: white; 
+    color: black; 
+    display: block; 
+    width: 50%; 
+    height: 55px;
+    border: 0px;
+    transition: .5s;
+    font-size: 1.65vw;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  }
+
+  #erp-button:hover{
+    color: white;
+    background-color: pink;
+  }
+
+#piccontain{
+	position: absolute;
+	left: 10%;
+	top: 50%;
+	width: 37%;
+	transform: translate(0%, -50%);
+	background-color: red;
+}
+
+#contain{
+	width: 100%;
+}
+
+
+#slider{
+	overflow: hidden;
+}
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 10s slider infinite;
+}
+#slider figure {
+	animation: 15s slider infinite;
+}
+
+#slider figure img{
+	float: left;
+	height: 350px;
+	width: 20%;
+}
+
+
+
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+#info{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 40%;
+	height: 350px;
+	transform: translate(0%, -50%);
+}
+#heading{
+	margin: 20px;
+	color:   #000080;
+	font-size: 25px;
+}
+
+#description{
+	margin: 20px;
+	letter-spacing: 1px;
+}
+
+#description-user{
+	margin: 20x;
+	letter-spacing: 1px;
+}

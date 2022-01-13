@@ -1,0 +1,12 @@
+.box{
+    height: 320px;
+    background-color: rgb(249, 250, 250);
+    border: 1px solid black;
+}
+
+.test{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+}
+

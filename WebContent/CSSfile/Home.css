@@ -1,0 +1,167 @@
+/* Welcome Pics */
+
+
+
+
+/* welcome animation text*/
+marquee{
+	padding: 0px;
+	margin: 0px;
+}
+#welcomeparent {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	position: relative;
+	font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+
+#welcomeChild {
+	
+	text-align: center; 
+	width: 100%;
+	position: absolute;
+ 	top: 27%;
+/* 	transfrom: translate(-50%, -50%);  */
+	color: white;
+	font-size: 21px;
+	
+	text-align: center;
+	background: black;
+	
+}
+
+/* welcome note*/
+#welcomeDescription {
+	width: 100%;
+	height: 350px;
+	/*background-color:  #cccccc;*/
+	background-image: url(/Project2/image/background.png);
+}
+
+#welcomeDescriptionHeading {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: normal;
+	color: black;
+}
+
+#welcomeDescriptionssage {
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 35px;
+	letter-spacing: 1px;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* underline Part  */
+#underlinePart {
+	width: 90%;
+	height: 1px;
+	background: #b3b3b3;
+	margin: auto;
+}
+
+/* chairman message*/
+#chairmanMessage {
+	position: relative;
+	width: 90%;
+	height: 350px;
+	/*background: #b3b3b3;*/
+	background-image: url(/Project2/image/background.png);
+	margin: auto;
+	border-top-right-radius: 0.85rem;
+	border-bottom-right-radius: 0.85rem;
+	border-top-left-radius: 0.85rem;
+	border-bottom-left-radius: 0.85rem;
+}
+
+#chairmapic {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	height: 250px;
+	width: 20%;
+}
+
+#chairmapic img {
+	height: 100%;
+	width: 100%;
+}
+
+#messageContainer {
+	position: absolute;
+	left: 24%;
+	top: 20px;
+	width: 74%;
+	height: 300px;
+}
+
+#chairmaHeading {
+	margin-top: 0px;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+
+#chairmaQualifiaction {
+	margin-top: 8px;
+	margin-bottom: 0px;
+	font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+
+#chairmaName {
+	margin-top: 12px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+
+#chairmadept {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+
+#chairmaMessage {
+	margin-top: 10px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+/* See All */
+.cartcontainer {
+	text-align: center;
+}
+
+.button {
+	width: 160px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.button-1 {
+	background-color: transparent;
+	border: 3px solid purple;
+	border-radius: 50px;
+	-webkit-transition: all .15s ease-in-out;
+	transition: all .15s ease-in-out;
+	color: purple;
+}
+
+.button-1:hover {
+	box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+	border: 3px solid #00d7c3;
+}

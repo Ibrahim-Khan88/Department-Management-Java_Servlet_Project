@@ -1,0 +1,120 @@
+
+body{
+	    background: url("/Project2/image/background.png");
+}
+
+  #contact{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    height: 400px;
+    background: url("/Project2/image/background.png");
+  }
+  
+  h1{
+  color: green;
+  }
+
+  #contact-heading{
+    position: absolute;
+    top: 40px;
+    font-size: 4.5vw;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  }
+
+  #contact-sub-heading{
+    position: absolute;
+    font-size: 1.1vw;
+    z-index: 1;
+  }
+
+  #contact-sometext{
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    font-size: 1.1vw;
+    text-align: left;
+   // background-color: red;
+
+  }
+
+  #address{
+    display: inline-table;
+    //background-color: pink;
+    position: absolute;
+    line-height: 120%;
+  }
+
+  #Phone{
+    display: inline-table;
+    position: absolute;
+    line-height: 120%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  #email{
+    display: inline-table;
+    position: absolute;
+    line-height: 120%;
+  }
+
+  #comment{
+    height: 200px;
+    width: 80%;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    background: url("/Project2/image/background.png");
+  }
+
+  #test{
+    right: 0px;
+    height: 10px;
+    position: absolute;
+    z-index: 2;
+  }
+
+  #name, #gmail-input{
+    //border: 2px black solid;
+    border: none;
+    background-color: #E7F6FC;
+    font-size: 2vw;
+    padding-left: 0px;
+    box-sizing: border-box;
+    height: 45%;
+    width: 100%; 
+  }
+
+  #input-comment{
+    //border: 2px black solid;
+    border: none;
+    background-color: #E7F6FC;
+    font-size: 2vw;
+    padding-left: 0px;
+    box-sizing: border-box;
+  }
+
+  #submit{
+    height: 50px;
+    width: 170px;
+    position: relative;
+    left: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #submit button{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    font-size: 2vw;
+    border: none;
+    color: white;
+  }
+
+  #submit button:hover{
+    opacity: .7;
+  }
+
+  
